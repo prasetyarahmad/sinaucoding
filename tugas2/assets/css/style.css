@@ -11,7 +11,7 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
 .header-content{position:relative; min-height: 171px; max-height:auto;}
 .upright{position: relative; float:right; min-height:81px;}
 .upperlink{position: relative; padding:10px 0; margin:18px 0;}
-.upperlink a{text-decoration: none; color:#fff; background-color: #26468f; padding:10px; border-radius:4px; -webkit:border-radius:4px; -o-border-radius:4px; transition:all 0.3s; position:relative; float:right;}
+.upperlink a{text-decoration: none; color:#fff; background-color: #26468f; padding:10px; border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; transition:all 0.3s; position:relative; float:right;}
 .upperlink a:hover{background-color: #3b5ba3; transition: all 0.3s;}
 .logo-header{position: relative; float:left;}
 .logo{position: relative; padding:10px 10px 10px 0; width:130px; height:130px; float:left;}
@@ -23,7 +23,7 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
 .slider{margin:0; padding:0;}
 .slider img{width:100%; position: relative;}
 .content-1{background: url(../shield.png) right no-repeat;}
-.headline {padding:30px; text-align: center;}
+.headline {padding:30px; text-align: center; margin:0;}
 .headline h2{font-weight:500;}
 .headline h2 span{color:#26468f;}
 
@@ -50,7 +50,7 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
 .cb2{width:25px; height:100px; position: relative; float: left;}
 .formulir input.ccb2{width:20px; height:20px; padding:3px; margin-right:5px; border-radius: 7px;}
 .formulir .cb2 input:checked {background:blue; color:#fff;}
-.button-blue{background-color: #26468f; border: none; position:relative; padding: 7px 80px; color: #fff; cursor: :pointer; border-radius:10px; transition:all 0.3s; margin-bottom:20px;} 
+.button-blue{background-color: #26468f; border: none; position:relative; padding: 7px 80px; color: #fff; cursor: pointer; border-radius:10px; transition:all 0.3s; margin-bottom:20px;} 
 .button-blue:hover{background-color: #3b5ba3; transition: all 0.3s;}
 .formulir p{font-size: 12px;}
 .content-4{background: #eeeeee; text-align: center; padding-bottom: 50px;}
