@@ -71,7 +71,7 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
     .formulir table{margin-left: -10px;}
     .formulir table th{width:150px;}
     .logo img{position: relative; width:80px; height:80px;}
-    .logo{position: relative; width:80px; height:80px; margin-top:0; padding-left:10px;}
+    .logo{position: relative; width:80px; height:80px; margin-top:-10px; padding-left:10px;}
 
 }
 
