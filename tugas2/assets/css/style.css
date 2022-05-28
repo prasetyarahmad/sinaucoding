@@ -9,13 +9,13 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
 .subhead1{background-color: #26468f; min-height:27px;max-height:auto; position: relative;}
 .subhead2{background: url('../bg-grey.png') repeat-x; min-height:171; max-height:auto; position: relative;}
 .header-content{position:relative; min-height: 171px; max-height:auto;}
-.upright{position: relative; float:right; min-height:81px;}
-.upperlink{position: relative; padding:10px 0; margin:18px 0;}
+.upright{position: relative; text-align: right; min-height:81px;}
+.upperlink{position: relative; padding:10px 0; margin:4px 0;}
 .upperlink a{text-decoration: none; color:#fff; background-color: #26468f; padding:10px; border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; transition:all 0.3s; position:relative; float:right;}
 .upperlink a:hover{background-color: #3b5ba3; transition: all 0.3s;}
-.logo-header{position: relative; float:left;}
-.logo{position: relative; padding:10px 10px 10px 0; width:130px; height:130px; float:left;}
-.logo-text{position: relative; float:left; padding:20px 0 0 20px; margin-top:60px;}
+.logo-header{position: relative;}
+.logo{position: relative; margin-top:-65px; padding:10px 10px 10px 0; width:130px; height:130px; float:left;}
+.logo-text{position: relative; width:auto; float:left; padding:20px 0 0 20px;}
 .logo-text h1{font-family: 'Arial Narrow', Arial, sans-serif; font-size: 32.6px; padding:0; margin:0; font-weight: 600; color:#26468f}
 .logo-text h3{font-family: 'Arial Narrow', Arial, sans-serif; font-size: 20px; padding:0; margin:0; font-weight: 500; color: #26468f;}
 .logo-text h3 span{font-weight:800;}
@@ -38,7 +38,7 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
 .about-content p{padding-bottom:30px;}
 .about-content a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px; text-decoration: none; padding:20px 30px; background-color: #26468f; color: #fff; position: relative; border-radius: 7px; -webkit-border-radius:7px; box-shadow: 5px 5px #cccccc; transition: all 0.3s; -webkit-transition: all 0.3s;}
 .about-content a:hover{background-color: #3b5ba3; transition: all 0.3s; -webkit-transition: all 0.3s;}
-.content-3{position: relative; margin:0; padding:0; background: url(../bg.png) 200px no-repeat;}
+.content-3{position: relative; margin:0; padding:0; background: url(../bg.png) top left no-repeat;}
 .formulir table{ position: relative; margin:auto; border:none;}
 .formulir table th, td {padding:10px; max-width:450px;}
 .formulir table th{text-align: right;}
@@ -61,13 +61,16 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
 /*reset*/
 *{margin:0; padding:0;}
 
-@media screen and (max-width: 960px){
-    .logo-text{position: relative; float:left; padding:20px 0 0 20px; margin-left:0; margin-top:80px; float:left;}
+@media screen and (max-width: 1080px){
+    .logo-text{position: relative; float:left; padding:20px 0 0 20px; margin:0; float:left;}
     .logo-text h1{font-family: 'Arial Narrow', Arial, sans-serif; font-size: 20px; padding:0; margin:0; font-weight: 600; color:#26468f}
     .logo-text h3{font-family: 'Arial Narrow', Arial, sans-serif; font-size: 12px; padding:0; margin:0; font-weight: 500; color: #26468f;}
-    .upperlink{position: relative; padding:10px 0; margin:18px 0; font-size: 14px;}
-    .content-2{background-position: left;}
-    .content-3{background-position: left;}
+    .upperlink{position: relative; padding:10px 0; margin:0; font-size: 14px;}
+    .content-2{background-position: top center;}
+    .content-3{background-position: top center;}
+    .formulir table{margin-left: -40px;}
+    .formulir table th{width:150px;}
+
 }
 
 
@@ -77,7 +80,7 @@ body{background-color: #fff; margin:0; padding:0; font-family:'Roboto', sans-ser
 
 @media screen and (max-width: 580px){
     .formulir table th, td {padding:10px; max-width:200px;}
-    .formulir .textinput{width:200px; padding:7px; border: 1px solid #999999;}
+    .formulir .textinput{width:220px; padding:7px; border: 1px solid #999999;}
     .formulir .numinput{width:80px; padding:7px; position: relative; margin-right:20px; border: 1px solid #999999;}
     .formulir span.cb{padding: 0 5px 0 0; display: block;}
 }
